@@ -1,3 +1,8 @@
 {
-  "usingComponents": { "Dice": "/components/Dice/Dice" }
+  "usingComponents": {
+    "Dice": {
+      "component": "/components/Dice/Dice",
+      "placeholder": "/components/DicePlaceholder/DicePlaceholder"
+    }
+  }
 }
