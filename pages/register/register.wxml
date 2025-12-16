@@ -3,16 +3,15 @@
         <text style="font-size: 60rpx; font-weight: bold; color: #FF6B35;">用户注册</text>
     </view>
 
-    <!-- 用户名输入框：增加聚焦样式 -->
+    <!-- 用户名输入框：修复连续输入问题（移除 focus 属性） -->
     <view class="input-box" style="background: white; border-radius: 80rpx; padding: 0 30rpx; height: 80rpx; line-height: 80rpx; margin-bottom: 30rpx; display: flex; align-items: center;">
         <input placeholder="请输入用户名"
                placeholder-style="color: #999; font-size: 30rpx;"
                bindinput="onUsernameInput"
-               style="flex: 1; font-size: 30rpx; height: 100%;"
-               focus="{{!username}}" />
+               style="flex: 1; font-size: 30rpx; height: 100%;" />
     </view>
 
-    <!-- 密码输入框：增加聚焦样式 -->
+    <!-- 密码输入框：保持不变 -->
     <view class="input-box" style="background: white; border-radius: 80rpx; padding: 0 30rpx; height: 80rpx; line-height: 80rpx; margin-bottom: 30rpx; display: flex; align-items: center;">
         <input placeholder="请输入密码（至少6位）"
                placeholder-style="color: #999; font-size: 30rpx;"
@@ -21,7 +20,7 @@
                style="flex: 1; font-size: 30rpx; height: 100%;" />
     </view>
 
-    <!-- 注册按钮：优化点击区域和样式 -->
+    <!-- 注册按钮：保持不变 -->
     <button class="btn-primary"
             bindtap="onRegister"
             style="background: linear-gradient(90deg, #FF6B35, #FF9248); color: white; border-radius: 80rpx; font-size: 32rpx; height: 80rpx; line-height: 80rpx; margin-top: 40rpx;">

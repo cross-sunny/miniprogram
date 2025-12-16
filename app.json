@@ -11,5 +11,26 @@
     "navigationBarTitleText": "酒桌游戏合集",
     "navigationBarTextStyle": "white",
     "backgroundColor": "#F5F5F5"
-  }
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#FF6B35",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/gameIndex/gameIndex",
+        "text": "游戏首页"
+      },
+      {
+        "pagePath": "pages/diceGame/diceGame",
+        "text": "骰子游戏"
+      },
+      {
+        "pagePath": "pages/thirteen/thirteen",
+        "text": "十三张"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
 }
