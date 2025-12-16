@@ -1,0 +1,18 @@
+<view class="container" style="padding-top: 200rpx;">
+    <view class="logo" style="text-align: center; margin-bottom: 80rpx;">
+        <text style="font-size: 60rpx; font-weight: bold; color: #FF6B35;">酒桌游戏</text>
+    </view>
+
+    <view class="input-box">
+        <input placeholder="请输入用户名" placeholder-style="color: #999;" bindinput="onUsernameInput"/>
+    </view>
+    <view class="input-box">
+        <input placeholder="请输入密码" placeholder-style="color: #999;" type="password" bindinput="onPasswordInput"/>
+    </view>
+
+    <button class="btn-primary" bindtap="onLogin">登录</button>
+
+    <view style="text-align: center; margin-top: 40rpx; font-size: 28rpx; color: #666;">
+        还没有账号？<text style="color: #FF6B35;" bindtap="toRegister">立即注册</text>
+    </view>
+</view>

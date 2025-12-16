@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/gameIndex/gameIndex",
+    "pages/diceGame/diceGame",
+    "pages/thirteen/thirteen"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#FF6B35",
+    "navigationBarTitleText": "酒桌游戏合集",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#F5F5F5"
+  }
+}
