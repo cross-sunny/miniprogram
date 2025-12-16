@@ -16,7 +16,8 @@ Page({
             return;
         }
         wx.request({
-            url: "http://localhost:8080/api/user/login",
+           url: "http://10.32.108.92:8080/api/user/login",
+           //url: "http://192.168.14.1:8080/api/user/login",
             method: "POST",
             data: { username, password },
             success: (res) => {
