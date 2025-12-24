@@ -1,0 +1,20 @@
+<view class="todo-index">
+    <view class="title">我的待办</view>
+    <!-- 新增：左滑操作提示 -->
+    <view class="operation-tip">左滑任务以完成/删除</view>
+
+    <!-- 任务列表 -->
+    <view class="todo-list">
+        <block wx:for="{{todoList}}" wx:key="id">
+            <todoItem
+                    todo="{{item}}"
+                    bind:complete="completeTodo"
+                    bind:delete="deleteTodo"
+            />
+        </block>
+        <view class="empty" wx:if="{{todoList.length === 0}}">暂无任务，点击下方按钮添加</view>
+    </view>
+
+    <!-- 新增任务按钮 -->
+    <button class="add-btn" bindtap="toAddTodo">+ 新增任务</button>
+</view>

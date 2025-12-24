@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "todoItem": "/components/todoItem/todoItem"
+  },
+  "navigationBarTitleText": "我的待办"
+}

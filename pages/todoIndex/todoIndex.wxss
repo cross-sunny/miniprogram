@@ -1,0 +1,39 @@
+.todo-index {
+    padding: 20rpx;
+    min-height: 100vh;
+    background: #f5f5f5;
+}
+.title {
+    font-size: 36rpx;
+    font-weight: bold;
+    color: #FF7F24;
+    margin-bottom: 30rpx;
+}
+.todo-list {
+    margin-bottom: 120rpx;
+}
+.empty {
+    text-align: center;
+    color: #999;
+    padding: 50rpx 0;
+}
+.add-btn {
+    position: fixed;
+    bottom: 30rpx;
+    right: 30rpx;
+    width: 100rpx;
+    height: 100rpx;
+    border-radius: 50%;
+    background: #FF7F24;
+    color: white;
+    line-height: 100rpx;
+    font-size: 60rpx;
+    padding: 0;
+}
+/* 左滑操作提示样式 */
+.operation-tip {
+    font-size: 24rpx;
+    color: #999;
+    margin-bottom: 20rpx;
+    padding-left: 10rpx;
+}

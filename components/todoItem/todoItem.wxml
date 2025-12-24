@@ -1,0 +1,14 @@
+<view class="todo-item" bindtouchstart="touchStart" bindtouchend="touchEnd">
+    <view class="slide-area" style="transform: translateX({{slideX}}rpx);">
+        <!-- 任务内容区域 -->
+        <view class="content">
+            <text class="{{todo.isDone === 1 ? 'done' : ''}}">{{todo.content}}</text>
+            <text class="deadline">{{todo.deadline ? todo.deadline.substring(0,16) : '无截止时间'}}</text>
+        </view>
+        <!-- 左滑操作按钮 -->
+        <view class="slide-btns">
+            <button class="complete-btn" bindtap="handleComplete">完成</button>
+            <button class="delete-btn" bindtap="handleDelete">删除</button>
+        </view>
+    </view>
+</view>

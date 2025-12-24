@@ -47,7 +47,7 @@ Page({
     wx.showLoading({ title: "注册中..." });
 
     // 关键修改：参数拼接到URL，用encodeURIComponent处理特殊字符（如中文、空格）
-    const registerUrl = `https://pure-monostylous-lakenya.ngrok-free.dev/api/user/register?username=${encodeURIComponent(username)}&password=${encodeURIComponent(password)}`;
+    const registerUrl = `http://localhost:8080/api/user/register?username=${encodeURIComponent(username)}&password=${encodeURIComponent(password)}`;
 
     wx.request({
       url: registerUrl, // 拼接后的URL（替代原data传参）

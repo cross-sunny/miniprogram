@@ -1,3 +1,0 @@
-<view class="dice" style="transform: rotate({{rotate}}deg);">
-    <image src="/images/dice{{point}}.png" style="width: 150rpx; height: 150rpx;"/>
-</view>
